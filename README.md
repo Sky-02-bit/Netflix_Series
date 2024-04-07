@@ -1,3 +1,3 @@
 # Netflix_Series 
-basically It contains netflix-series and movie 
+Basically It contains netflix-series and movie and
 It is created using React js .
