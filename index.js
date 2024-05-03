@@ -8,7 +8,8 @@ import Flixdata from './Flixdsta';
 const netflixcard = (val) => {
         return(
                 <Card 
-                key = {val.id}
+                key = {val.id} // The word 'key' is for  warning is about using a unique key in console.
+                                // Keys are necessary to improve performance of yout React app
                 sname = {val.sname}
                 imgsrc = {val.imgsrc}
                 title = {val.title}
