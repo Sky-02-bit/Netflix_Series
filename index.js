@@ -8,6 +8,7 @@ import Flixdata from './Flixdsta';
 const netflixcard = (val) => {
         return(
                 <Card 
+                key = {val.id}
                 sname = {val.sname}
                 imgsrc = {val.imgsrc}
                 title = {val.title}
